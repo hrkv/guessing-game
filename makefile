@@ -1,6 +1,6 @@
 all:
 	touch README.md
-	echo "#GUESSING GAME" > README.md
+	echo "# GUESSING GAME" > README.md
 	echo "" >> README.md
 	echo "lines count:" >> README.md
 	cat guessinggame.sh | wc -l >> README.md
